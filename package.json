@@ -1,0 +1,22 @@
+{
+  "name": "backend_basic",
+  "version": "1.0.0",
+  "description": "this is about backend basic setup and code",
+  "keywords": [
+    "node",
+    "mongodb",
+    "Express",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Amit kumar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  }
+}
