@@ -1,0 +1,23 @@
+Guide: Pushing a Local Project to GitHub
+
+1> Create a new repository on GitHub
+     Go to GitHub and create a new repository
+     Enter a repository name (e.g. backend_basic)
+     Choose Public or Private
+     Click Create repository
+
+2> Open your terminal and navigate to your project root folder
+3> git init -> To initialize the repository or It will initializes a local Git repository in your folder.
+   git add README.md (Ignore this step as you do not want only 1 file i.e README.md to add and push on git hub. you have to push all your files. so follow next step)
+
+   Note:- Create .gitignore before git add . (highly recommended) so you don't accidentally upload heavy or private files like node_modules or sensitive keys you have kept in .env
+4> git add . -> Add all files in the current directory to staging
+  → This stages everything (all files and folders) except items listed in .gitignore
+
+5> git commit -m "first commit" -> Create your first commit with a descriptive message.
+6> git branch -M main -> Set the branch name to main (GitHub’s default since ~2020)
+7> git remote add origin https://github.com/notgetin18/backend_basic.git -> Copied from GitHub as you will get when you create a new repository. It will connect your local repository to GitHub repository you created.
+8> git push -u origin main -> Push your code to GitHub for the first time. Now all your files will be uploded to github
+
+ Note:- The -u Flag: In the final step, -u stands for "upstream." You only need to use it the first time. After that, you can simply type git push to send your updates to GitHub.
+ Note:- Checking Status: If you’re ever unsure what Git is doing, run git status. It’s the best way to see which files are staged and ready to go.

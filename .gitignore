@@ -1,12 +1,3 @@
 node_modules
 
 .env
-
-
- if you make an repository and want to have on git hub , you need to create a new repository on git hub name it and follow the method
- 
- 1> git init -> To initialize the repository
- 2>git add README.md (Ignore this step as you do not want only 1 file i.e README.md to add and push on git hub. you have to push all your files. so follow next step)
- 3>git add . -> it will add all your file locally
- 4>git commit -m "first commit" -> this is your commit msg
- 5>git branch -M main -> create a branch 
